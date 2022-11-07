@@ -1,0 +1,35 @@
+.header {
+    height: 85px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.header > .logo {
+    display: flex;
+    justify-content: left;
+}
+
+.header > .logo img {
+    width: 190px;
+    height: 100%;
+    padding: 0px 15px
+}
+
+/* Navigation bar */
+.header > .navigation-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 600px;
+    justify-items: start
+}
+
+/* Buttons bar */
+.header > .buttons-wrapper {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
