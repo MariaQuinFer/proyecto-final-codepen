@@ -2,7 +2,7 @@
 .main-section {
     background: linear-gradient(135deg, rgba(50,53,61,1) 0%, rgba(58,62,71,1) 30%, rgba(37,39,45,1) 53%, rgba(10,11,12,1) 70%);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .main-section > .text-buttons-wrapper {
@@ -22,7 +22,7 @@
 
 /*Image*/
 .image-wrapper {
-    margin-top: 35px;
+    padding: 35px 0 0 40px;
 }
 
 .image-wrapper > .img-wrapper img {

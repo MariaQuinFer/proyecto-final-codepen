@@ -5,6 +5,7 @@
     }
 
     .header > .navigation-wrapper {
+        padding: 0;
         margin-top: 40px;
         display: none;
         flex-direction: column;
@@ -75,5 +76,6 @@
 
     .footer {
         height: 100%;
+        
     } 
 }

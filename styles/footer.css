@@ -4,6 +4,5 @@
     background-color: #191a1d;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: start;
-    justify-content: space-around;
+    align-items: baseline;
 }

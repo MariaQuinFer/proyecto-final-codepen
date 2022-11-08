@@ -2,7 +2,7 @@
     height: 85px;
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -22,7 +22,7 @@
 .header > .navigation-wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    width: 600px;
+    padding: 0 150px 0px 20px;
     justify-items: start
 }
 
