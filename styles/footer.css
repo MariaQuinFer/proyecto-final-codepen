@@ -1,8 +1,8 @@
 .footer {
-    width: 100%;
     height: 150px;
     background-color: #191a1d;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-area: auto;
+    grid-template-columns: repeat(4, 1fr);
     align-items: baseline;
 }

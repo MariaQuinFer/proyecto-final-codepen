@@ -1,8 +1,8 @@
 .header {
     height: 85px;
     background-color: black;
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
     align-items: center;
 }
 
